@@ -1,3 +1,6 @@
 [submodule "themes/oceanic-zen"]
 	path = themes/oceanic-zen
 	url = https://github.com/barlog-m/oceanic-zen.git
+[submodule "themes/terminimal"]
+	path = themes/terminimal
+	url = https://github.com/pawroman/zola-theme-terminimal
