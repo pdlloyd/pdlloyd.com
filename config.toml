@@ -2,8 +2,8 @@
 base_url = "https://pdlloyd.com"
 
 # The site title and description; used in feeds by default.
-title = ""
-description = ""
+title = "PDLloyd.com"
+description = "Personal blog for Patrick D. Lloyd"
 
 # The default language; used in feeds.
 default_language = "en"
@@ -28,7 +28,7 @@ minify_html = false
 ignored_content = []
 
 # When set to "true", a feed is automatically generated.
-generate_feed = false
+generate_feed = true
 
 # The filename to use for the feed. Used as the template filename, too.
 # Defaults to "atom.xml", which has a built-in template that renders an Atom 1.0 feed.
@@ -163,5 +163,5 @@ include_content = true
 [extra]
 # Put all your custom variables here
 author = "Patrick Lloyd"
-github = "github author name"
+github = "pdlloyd"
 twitter = "pdlloyd"
