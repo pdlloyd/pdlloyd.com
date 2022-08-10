@@ -1,9 +1,15 @@
 +++
+# Best practices from https://www.opengraph.xyz/: Keep title under 60 characters.
+#        |----------------------------------------------------------|
 title = "Hello World!"
+
+# Best practices from https://www.opengraph.xyz/: Keep description between 155 - 160 characters.
+#              |---------------------------------------------------------------------------------------------------------------------------------------------------------|----|
 description = "The first blog post on PDLloyd.com"
 
+# Two formats are allowed: YYYY-MM-DD (2012-10-02) and RFC3339 (2002-10-02T15:00:00Z).
 date = 2022-08-08
-#updated = 2022-08-09
+updated = 2022-08-09
 
 draft = false
 in_search_index = true
