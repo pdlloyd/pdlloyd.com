@@ -1,15 +1,29 @@
+# References
+# https://gitlab.com/pages/hugo/-/blob/main/.gitlab-ci.yml
+# https://www.getzola.org/documentation/deployment/gitlab-pages/
+
 image: alpine:latest
+
 variables:
   # This variable will ensure that the CI runner pulls in your theme from the submodule
   GIT_SUBMODULE_STRATEGY: recursive
 
-pages:
-  script:
+default:
+  before_script:
     # Install the zola package from the alpine community repositories
     - apk add --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
+
+test:
+  script:
     # Execute zola build
     - zola build
+  rules:
+    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
+pages:
+  script:
+    # Execute zola build
+    - zola build
   artifacts:
     paths:
       # Path of our artifacts
@@ -18,3 +32,17 @@ pages:
   # This config will only publish changes that are pushed on the master branch
   only:
     - master
+
+# You can override the included template(s) by including variable overrides
+# SAST customization: https://docs.gitlab.com/ee/user/application_security/sast/#customizing-the-sast-settings
+# Secret Detection customization: https://docs.gitlab.com/ee/user/application_security/secret_detection/#customizing-settings
+# Dependency Scanning customization: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#customizing-the-dependency-scanning-settings
+# Container Scanning customization: https://docs.gitlab.com/ee/user/application_security/container_scanning/#customizing-the-container-scanning-settings
+# Note that environment variables can be set in several places
+# See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
+stages:
+- test
+sast:
+  stage: test
+include:
+- template: Security/SAST.gitlab-ci.yml
