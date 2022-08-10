@@ -3,7 +3,7 @@ title = "Hello World!"
 description = "The first blog post on PDLloyd.com"
 
 date = 2022-08-08
-updated = 2022-08-09
+#updated = 2022-08-09
 
 draft = false
 in_search_index = true
