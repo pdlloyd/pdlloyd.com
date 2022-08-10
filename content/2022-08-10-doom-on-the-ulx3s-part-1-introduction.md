@@ -1,7 +1,13 @@
 +++
-title = "DOOM on the ULX3S Part 1: Introduction and Setup"
-description = "The first post in a series on running DOOM on the ULX3S FPGA using FOSS tools"
+# Best practices from https://www.opengraph.xyz/: Keep title under 60 characters.
+#        |----------------------------------------------------------|
+title = "DOOM on the ULX3S Part 1: Introduction"
 
+# Best practices from https://www.opengraph.xyz/: Keep description between 155 - 160 characters.
+#              |---------------------------------------------------------------------------------------------------------------------------------------------------------|----|
+description = "This is the first post in a series on running DOOM on the ULX3S FPGA using FOSS tools. This post outlines the goals and background of the project."
+
+# Two formats are allowed: YYYY-MM-DD (2012-10-02) and RFC3339 (2002-10-02T15:00:00Z).
 date = 2022-08-10
 #updated = 2022-08-10
 
