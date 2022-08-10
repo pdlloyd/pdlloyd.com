@@ -5,7 +5,7 @@ title = "Quick Mystery: Mirroring GitLab to GitHub Using SSH Public Keys"
 
 # Best practices from https://www.opengraph.xyz/: Keep description between 155 - 160 characters.
 #              |---------------------------------------------------------------------------------------------------------------------------------------------------------|----|
-description = "This is the second post in a series on running DOOM on the ULX3S FPGA using FOSS tools. It outlines the setup for the FPGA using the Yosys OSS CAD Suite."
+description = "I solve the problem of mirroring GitLab repositories to GitHub Using SSH Public Keys. Process is unidirectional but could be easily adapted to work the other way."
 
 # Two formats are allowed: YYYY-MM-DD (2012-10-02) and RFC3339 (2002-10-02T15:00:00Z).
 date = 2022-08-13
@@ -15,7 +15,7 @@ draft = true
 in_search_index = true
 
 [taxonomies]
-    tags = ["git", "github", "gitlab"]
+    tags = ["notes", "git", "github", "gitlab"]
 
 # template = 
 # weight = 
