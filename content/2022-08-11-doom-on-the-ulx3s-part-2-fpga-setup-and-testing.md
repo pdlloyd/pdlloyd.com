@@ -90,11 +90,11 @@ Your browser does not support the video tag.
 
 
 slow it down. Edit blinky.v line 30 and change 
-```verilog
+```SystemVerilog
 o_led[5:0] <= ctr[23:18];
 ```
 to 
-```verilog
+```SystemVerilog
 o_led[5:0] <= ctr[28:23];
 ```
 

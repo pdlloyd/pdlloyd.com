@@ -4,3 +4,6 @@
 [submodule "themes/terminimal"]
 	path = themes/terminimal
 	url = https://github.com/pawroman/zola-theme-terminimal
+[submodule "syntaxes/SystemVerilog"]
+	path = syntaxes/SystemVerilog
+	url = https://github.com/TheClams/SystemVerilog
