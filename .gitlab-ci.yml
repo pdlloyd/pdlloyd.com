@@ -11,6 +11,8 @@ default:
   before_script:
     # Install the zola package from the alpine community repositories
     - apk add --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
+    # Install git and update the submodules
+    - apk add --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ git
     - git submodule update --init --recursive
 
 test:
