@@ -16,6 +16,7 @@ in_search_index = true
 
 [taxonomies]
     tags = ["fpga", "linux", "embedded", "riscv"]
+	#categories = ["tech"]
 
 # template = 
 # weight = 
