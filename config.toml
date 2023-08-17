@@ -1,21 +1,17 @@
-# The URL the site will be built for
 base_url = "https://pdlloyd.com"
 title = "@pdlloyd"
 
 #theme = "terminimal"
 theme = "apollo"
 
-# Whether to automatically compile all Sass files in the sass directory.
-# Required for Terminimal.
+# Automatically compile all Sass files in the /sass directory (Required for Terminimal).
 compile_sass = true
 
-# Whether to build a search index to be used later on by a JavaScript library
+# To be used later on by a JavaScript library
 build_search_index = true
 
-# The theme supports feeds (RSS and ATOM)
-generate_feed = true
-
 # Use `rss.xml` for RSS feeds and `atom.xml` for ATOM.
+generate_feed = true
 feed_filename = "atom.xml"
 
 favicon = "/icon/favicon.png"
