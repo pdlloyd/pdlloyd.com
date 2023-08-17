@@ -7,3 +7,9 @@
 [submodule "syntaxes/SystemVerilog"]
 	path = syntaxes/SystemVerilog
 	url = https://github.com/TheClams/SystemVerilog
+[submodule "syntaxes/PlantUML"]
+	path = syntaxes/PlantUML
+	url = https://github.com/nsiena/sublime-plantuml
+[submodule "themes/apollo"]
+	path = themes/apollo
+	url = https://github.com/not-matthias/apollo
