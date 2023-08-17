@@ -14,16 +14,16 @@ date = 2022-08-12
 draft = true
 in_search_index = true
 
-[taxonomies]
-    tags = ["fpga", "linux", "embedded", "riscv"]
+#[taxonomies]
+#    tags = ["fpga", "linux", "embedded", "riscv"]
 
 # template = 
 # weight = 
 # slug = 
 # path = 
 # aliases = 
-[extra]
-    series = ["ulx3s-doom"]
+#[extra]
+#    series = ["ulx3s-doom"]
 +++
 
 THIS IS A DRAFT

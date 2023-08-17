@@ -14,8 +14,8 @@ date = 2022-08-10
 draft = false
 in_search_index = true
 
-[taxonomies]
-    tags = ["fpga", "linux", "embedded", "riscv"]
+#[taxonomies]
+#    tags = ["fpga", "linux", "embedded", "riscv"]
 	#categories = ["tech"]
 
 # template = 
@@ -24,7 +24,7 @@ in_search_index = true
 # path = 
 # aliases = 
 [extra]
-    series = ["ulx3s-doom"]
+#    series = ["ulx3s-doom"]
 +++
 
 {{ figure(src="/cactus-doom.jpg",

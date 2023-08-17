@@ -14,8 +14,8 @@ date = 2022-08-11
 draft = true
 in_search_index = true
 
-[taxonomies]
-    tags = ["fpga", "linux", "embedded", "riscv"]
+#[taxonomies]
+#    tags = ["fpga", "linux", "embedded", "riscv"]
     #categories = ["tech"]
     #series = ["ulx3s-doom"]
 
@@ -25,7 +25,7 @@ in_search_index = true
 # path = 
 # aliases = 
 [extra]
-    series = ["ulx3s-doom"]
+#    series = ["ulx3s-doom"]
 +++
 
 > “Begin at the beginning," the King said, very gravely, "and go on till you come to the end: then stop.”
