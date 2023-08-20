@@ -48,7 +48,7 @@ The HDL typically describes a digital circuit at an abstraction level called the
 
 ### Formal Verification (Optional)
 
-[Formal verification](https://en.wikipedia.org/wiki/Formal_verification) is a subdiscipline of FPGA design which uses a solver program to mathematically prove the correctness of a particular design. I don't know how to do formal verification yet, and so will be skipping this step, but I know that it can be very powerful. One use case is detecting unintended edge-cases that could break the design or introduce security vulnerabilities, but may be hard to detect or reproduce with simulation alone.
+[Formal verification](https://en.wikipedia.org/wiki/Formal_verification) is a subdiscipline of FPGA design which uses a solver program to mathematically prove the correctness of a particular design. I don't know how to do formal verification yet, and so will be skipping this step, but I know that it can be very useful. One use case is detecting obscure, unintended edge-cases that could break the design or introduce security vulnerabilities, but may be hard to detect or reproduce with simulation alone.
 
 <a href="https://testbench4u.com/2017/05/29/formal-verification-questions/">
 {{ image(src="formal-verification.png", alt="The synthesizer reads RTL source files as input and produces a netlist file.", position="center", style="border-radius: 8px;") }}
